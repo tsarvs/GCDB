@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Operations Version="1.0" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+  <Operation Name="Rename Refactor" Key="811fb680-dd52-4313-87de-fdf8d144bf73" ChangeDateTime="03/20/2019 12:32:27">
+    <Property Name="ElementName" Value="[dbo].[LAUNCH].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[LAUNCH]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="l_id" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="56617082-e71b-4fed-98e4-4fe5b1507ff0" ChangeDateTime="03/20/2019 12:33:22">
+    <Property Name="ElementName" Value="[dbo].[LAUNCH].[l_begin]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[LAUNCH]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="l_date" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="5265e1f4-7364-446f-aff6-97daab4dfd8f" ChangeDateTime="03/20/2019 12:33:40">
+    <Property Name="ElementName" Value="[dbo].[LAUNCH].[l_end]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[LAUNCH]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="l_separation" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="3f338333-c17f-4048-b81f-db887fc2332d" ChangeDateTime="03/20/2019 12:35:20">
+    <Property Name="ElementName" Value="[dbo].[TELEMETRY_VEHICLE].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[TELEMETRY_VEHICLE]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="tv_id" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="b4465088-5dab-4cee-aa0a-4467f96ab915" ChangeDateTime="03/20/2019 12:36:58">
+    <Property Name="ElementName" Value="[dbo].[TELEMETRY_VEHICLE].[tv_time]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[TELEMETRY_VEHICLE]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="tv_timestamp" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="1e22cadd-8166-4539-bb32-64b11fcd4832" ChangeDateTime="03/20/2019 12:40:19">
+    <Property Name="ElementName" Value="[dbo].[TELEMETRY_NOSECONE].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[TELEMETRY_NOSECONE]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="tn_id" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="4d8d1baf-cbff-4e7c-a7eb-e8947b7d7beb" ChangeDateTime="03/20/2019 12:46:54">
+    <Property Name="ElementName" Value="[dbo].[TELEMETRY_PAYLOAD].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[TELEMETRY_PAYLOAD]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="tp_id" />
+  </Operation>
+</Operations>
